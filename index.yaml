@@ -14,9 +14,9 @@ entries:
     - monitoring
     name: keepalived-operator
     sources:
-    - https://github.com/redhat-cop/keepalived-operator
+    - https://akarhh47.github.io/keepalived-operator
     urls:
-    - https://redhat-cop.github.io/keepalived-operator/keepalived-operator/keepalived-operator-v1.5.2.tgz
+    - https://redhat-cop.github.io/keepalived-operator/keepalived-operator/keepalived-operator-v1.5.1.tgz
     version: v1.5.2
   - apiVersion: v1
     appVersion: v1.5.1
