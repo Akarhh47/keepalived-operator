@@ -2,23 +2,6 @@ apiVersion: v1
 entries:
   keepalived-operator:
   - apiVersion: v1
-    appVersion: v1.5.2
-    created: "2022-11-21T17:44:29.014886312Z"
-    description: Helm chart that deploys keepalived-operator
-    digest: 280b5b10bce35637785a873d7f3a6f223f7223f9148d7127b94e3249ac697c1d
-    keywords:
-    - volume
-    - storage
-    - csi
-    - expansion
-    - monitoring
-    name: keepalived-operator
-    sources:
-    - https://akarhh47.github.io/keepalived-operator
-    urls:
-    - https://redhat-cop.github.io/keepalived-operator/keepalived-operator/keepalived-operator-v1.5.1.tgz
-    version: v1.5.2
-  - apiVersion: v1
     appVersion: v1.5.1
     created: "2022-11-21T17:44:29.0136192Z"
     description: Helm chart that deploys keepalived-operator
@@ -31,9 +14,9 @@ entries:
     - monitoring
     name: keepalived-operator
     sources:
-    - https://github.com/redhat-cop/keepalived-operator
+    - https://akarhh47.github.io/keepalived-operator
     urls:
-    - https://redhat-cop.github.io/keepalived-operator/keepalived-operator/keepalived-operator-v1.5.1.tgz
+    - https://akarhh47.github.io/keepalived-operator/keepalived-operator/keepalived-operator-v1.5.1.tgz
     version: v1.5.1
   - apiVersion: v1
     appVersion: v1.5.0
